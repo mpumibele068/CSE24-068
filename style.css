@@ -28,7 +28,7 @@ html, body {
 }
 
 .banner-logo {
-  width: 100%;
+  width: 60px;
   height: auto;
 }
 
@@ -114,7 +114,7 @@ html, body {
 }
 
 .feature-box {
-  max-width: 100%;
+  max-width: 220px;
   margin: 15px;
   padding: 20px;
   background-color: #fff6d6;
@@ -386,51 +386,6 @@ html, body {
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
 }
 
-/* 🔽 Small screen adjustments for phones */
-@media (max-width: 768px) {
-  .banner {
-    padding: 20px;
-    text-align: center;
-  }
-
-  .banner-text {
-    text-align: center;
-  }
-
-  .banner-logo {
-    width: 80px;
-    margin-bottom: 10px;
-  }
-
-  .nav-links {
-    flex-direction: column;
-    gap: 10px;
-    padding: 0;
-    margin: 0;
-  }
-
-  .nav-links li {
-    display: block;
-  }
-
-  .products,
-  .freebies,
-  .faq-section,
-  .about-section,
-  .resources-section {
-    padding: 20px;
-  }
-
-  .product-item,
-  .freebie-item,
-  .blog-section article {
-    width: 100%;
-  }
-
-  h1, h2, p {
-    font-size: 90%;
-  }
-}
 
 
 
