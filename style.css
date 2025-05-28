@@ -28,7 +28,7 @@ html, body {
 }
 
 .banner-logo {
-  width: 60px;
+  width: 100%;
   height: auto;
 }
 
@@ -114,7 +114,7 @@ html, body {
 }
 
 .feature-box {
-  max-width: 220px;
+  max-width: 100%;
   margin: 15px;
   padding: 20px;
   background-color: #fff6d6;
